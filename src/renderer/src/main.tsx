@@ -5,10 +5,8 @@ import App from './App'
 import './utils/ga'
 
 ReactDOM.render(
-  <React.StrictMode>
     <HashRouter>
       <App />
-    </HashRouter>
-  </React.StrictMode>,
+    </HashRouter>,
   document.getElementById('root'),
 )
